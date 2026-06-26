@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# data/artifacts
+*.npz
+*.npy
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.csv
+*.json
+*.tex
+outputs/
+paper_output/
+data/
+quality/
+splits/
+unimodal_preds/
+brokenQ*/
+.smoke_out/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/

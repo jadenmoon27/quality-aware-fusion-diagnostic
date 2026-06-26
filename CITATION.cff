@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: "Quality-Aware Multimodal Fusion Diagnostic"
+message: "If you use this code, please cite the associated paper."
+authors:
+  - family-names: Moon
+    given-names: Jaden
+  - family-names: Pillai
+    given-names: Arvind
+  - family-names: Campbell
+    given-names: Andrew
+preferred-citation:
+  type: conference-paper
+  title: "When Does Quality-Aware Multimodal Fusion Matter? A Leakage-Safe Diagnostic for Decision-Level Dependence"
+  authors:
+    - family-names: Moon
+      given-names: Jaden
+    - family-names: Pillai
+      given-names: Arvind
+    - family-names: Campbell
+      given-names: Andrew
+  year: 2026
