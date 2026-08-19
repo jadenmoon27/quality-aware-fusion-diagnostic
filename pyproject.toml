@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=68", "wheel"]
+requires = ["setuptools>=77.0.3", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -7,13 +7,14 @@ name = "quality-aware-fusion-diagnostic"
 version = "0.1.0"
 description = "Leakage-safe Clean-Q/Broken-Q diagnostic for quality-aware multimodal fusion."
 readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
 requires-python = ">=3.10"
 authors = [
   {name = "Jaden Moon"}
 ]
 classifiers = [
   "Programming Language :: Python :: 3",
-  "License :: Other/Proprietary License",
   "Topic :: Scientific/Engineering :: Artificial Intelligence",
 ]
 

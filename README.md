@@ -14,7 +14,7 @@ If quality is decision-relevant, Clean-Q should outperform Broken-Q. If predicti
 
 ## Repository status
 
-This repository is prepared from the uploaded experiment ZIPs and is organized for public release. It does **not** include restricted datasets, raw StressID/CMU-MOSEI files, extracted embeddings, subject split files, or paper result artifacts. Those should stay out of Git and be stored externally.
+This repository provides a cleaned implementation of the diagnostic pipeline and is organized for reproducible public use. It does **not** include restricted datasets, raw StressID/CMU-MOSEI files, extracted embeddings, subject split files, or paper result artifacts. Those should stay out of Git and be stored externally.
 
 The main reproducibility boundary is prepared UNION, split, quality, and unimodal-prediction artifacts. The public StressID code does not claim to reproduce raw audio/video/physiology feature extraction from the restricted source data.
 
@@ -97,7 +97,7 @@ The MOSEI scripts can build the UNION and Q files from CMU Multimodal SDK artifa
 ## Installation
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/jadenmoon27/quality-aware-fusion-diagnostic.git
 cd quality-aware-fusion-diagnostic
 python -m venv .venv
 source .venv/bin/activate
@@ -248,4 +248,6 @@ INTERSPEECH 2026 diagnostic paper
 
 ## License
 
-A license has intentionally not been finalized here. Before public release, choose a license with all coauthors/supervisors. MIT or BSD-3-Clause is typical for academic research code, but this should be a project decision.
+The source code and documentation in this repository are licensed under the [MIT License](LICENSE).
+
+This license does not apply to external datasets, pretrained models, embeddings, SDKs, or other third-party artifacts. Those resources remain subject to their respective licenses and terms of use.
